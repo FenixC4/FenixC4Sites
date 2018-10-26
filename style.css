@@ -1,0 +1,40 @@
+body {
+	background-image: url("loop.png");
+	margin: 0px;
+	font-family: 'Krub', sans-serif;
+}
+button {
+	margin: 0px 0px 0px 0px;
+	padding: 5px;
+	background-color: grey;
+	border: 0px;
+	opacity: 0.8;
+}
+input {
+	border: 0px;
+	padding: 5px;
+	background-color: grey;
+	opacity: 0.8;
+}
+.indicator {
+	color: blue;
+	margin: 2px;
+}
+#MBox {
+	width: 350px;
+	margin: 0px auto;
+	text-align: center;
+	position: relative;
+	box-shadow: 5px 5px 10px grey;
+}
+#MBox::after {
+	content: "";
+	background-color: white;
+	opacity: 0.95;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	position: absolute;
+	z-index: -1;   
+}
