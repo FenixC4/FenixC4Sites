@@ -28,6 +28,7 @@ input {
 .icon {
 	width: 100px;
 	height: 100px;
+	transition: -0.05s;
 	-webkit-transition: -0.05s;
 }
 .icon:active {
