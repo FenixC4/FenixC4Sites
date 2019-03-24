@@ -29,6 +29,8 @@ input {
 	width: 100px;
 	height: 100px;
 	transition: 0.05s;
+	-webkit-animation-delay: -0.05s;
+	animation-delay: -0.05s;
 }
 .icon:active {
 	width: 10px;
