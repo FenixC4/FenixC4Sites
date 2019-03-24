@@ -9,12 +9,12 @@ var sum4 = 0;
 var w5n = [];
 var sum5 = 0;
 
-document.getElementById("add1").addEventListener("click", myFunction)
-document.getElementById("add2").addEventListener("click", myFunction1)
-document.getElementById("add3").addEventListener("click", myFunction2)
-document.getElementById("add4").addEventListener("click", myFunction3)
-document.getElementById("add5").addEventListener("click", myFunction4)
-document.getElementById("submit").addEventListener("click", myFunction5)
+document.getElementById("add1").addEventListener("click", myFunction);
+document.getElementById("add2").addEventListener("click", myFunction1);
+document.getElementById("add3").addEventListener("click", myFunction2);
+document.getElementById("add4").addEventListener("click", myFunction3);
+document.getElementById("add5").addEventListener("click", myFunction4);
+document.getElementById("submit").addEventListener("click", myFunction5);
 
 function sum(input){
              
