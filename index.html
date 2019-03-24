@@ -3,12 +3,13 @@
 
 	<head>
 		<meta charset="utf-8" />
-		<link href="style.css" type="text/css" rel="stylesheet" />
+		<link href="stylephone.css" type="text/css" media="screen and (max-width: 1024px)" rel="stylesheet" />
+		<link href="style.css" type="text/css" media="screen and (min-width: 1024px)" rel="stylesheet" />
 		<link href="https://fonts.googleapis.com/css?family=Krub|Mali&amp;subset=latin-ext" rel="stylesheet">
+		<title>Kalkulator Średnia Ważona</title>
 	</head>
 	
 	<body>
-	<div id="MBox">
 		<p>Oblicz średnią ważoną:</p>
 			<p>Oceny z wagą 1:</p>
 			<input id="waga1" type="number"></input>
@@ -34,7 +35,6 @@
 			<button onclick="myFunction5()">Oblicz</button>
 			<p id="output">Lyczba</p>
 			<p id="output2">Lyczba</p>
-		</div>
 		<script src="script.js"></script>
 	</body>
 
