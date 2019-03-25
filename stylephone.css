@@ -26,13 +26,12 @@ input {
 	margin: 25px;
 }
 .icon {
-	width: 100px;
-	height: 100px;
-	transition: -0.05s;
-	-webkit-transition: -0.05s;
+	width: 75px;
+	height: 75px;
+	-webkit-transition: -webkit-transform 0.3s ease 0s, opacity 0.2s ease 0s;
+	transition: 0.05s;
 }
 .icon:active {
-	width: 10px;
-	height: 10px;
-	visibility: hidden;
+	width: 125px;
+	height: 125px;
 }
