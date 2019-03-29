@@ -28,29 +28,3 @@ button {
     background-color: #2a7fff;
     border-radius: 12px ;
 }
-
-
-#two::after {
-    content: " | 2";
-}
-#three::after {
-    content: " | 3";
-}
-#five::after {
-    content: " | 5";
-}
-#seven::after {
-    content: " | 7";
-}
-#elven::after {
-    content: " | 11";
-}
-#seventeen::after {
-    content: " | 17";
-}
-#nineteen::after {
-    content: " | 19";
-}
-#twentythree::after {
-    content: " | 23";
-}
