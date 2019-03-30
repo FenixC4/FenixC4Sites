@@ -1,9 +1,10 @@
 function myFunction() {
     var inputNumber = document.getElementById("number").value;
     var outputNumber = 0;
-    var divider = 0
+    var divider = 0;
+    var limiter = document.getElementById("limiter").value;
 
-    for (var limit = 1; limit <= 200; limit++) {
+    for (var limit = 1; limit <= limiter; limit++) {
         var a = false;
         for (var i = 2; i <= limit; i++) {
            if (limit%i===0 && i!==limit) {
@@ -28,7 +29,7 @@ function myFunction() {
         };
     };
     function checker(number) {
-        for (var limit = 1; limit <= 200; limit++) {
+        for (var limit = 1; limit <= limiter; limit++) {
             var a = false;
             for (var i = 2; i <= limit; i++) {
                if (limit%i===0 && i!==limit) {
@@ -54,7 +55,7 @@ function myFunction() {
         var numbers = document.getElementsByClassName("outputs");
         var array = Array.from(numbers);
         Array.from(numbers).forEach(num => {
-            for (var limit = 1; limit <= 200; limit++) {
+            for (var limit = 1; limit <= limiter; limit++) {
                 var a = false;
                 for (var i = 2; i <= limit; i++) {
                    if (limit%i===0 && i!==limit) {
