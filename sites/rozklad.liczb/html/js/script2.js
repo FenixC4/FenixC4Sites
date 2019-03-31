@@ -13,8 +13,8 @@ function myFunction() {
         };
         if (a === false, limit != 1) {
            divider = limit;
-        };
-        if (inputNumber % divider === 0) {
+
+           if (inputNumber % divider === 0) {
             outputNumber = inputNumber/divider;
             let newElement1 = document.createElement("p");
             newElement1.innerHTML = inputNumber+" | "+divider;
@@ -27,6 +27,7 @@ function myFunction() {
             changer()
             break
         };
+        };
     };
     function checker(number) {
         for (var limit = 1; limit <= limiter; limit++) {
@@ -38,8 +39,8 @@ function myFunction() {
             };
             if (a === false, limit != 1) {
                divider = limit;
-            };
-            if (number % divider === 0) {
+
+               if (number % divider === 0) {
                 outputNumber = number/divider;
                 let newElement = document.createElement("p");
                 newElement.className = "outputs";
@@ -48,6 +49,7 @@ function myFunction() {
                 checker(outputNumber)
                 changer()
                 break
+            };
             };
         };
     };
@@ -64,10 +66,11 @@ function myFunction() {
                 };
                 if (a === false, limit != 1) {
                    divider = limit;
-                };
-                if (num.innerHTML % divider === 0) {
+
+                   if (num.innerHTML % divider === 0) {
                     num.innerHTML = num.innerHTML + " | " + divider;
                     break
+                };
                 };
             };
         });
