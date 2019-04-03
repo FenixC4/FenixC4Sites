@@ -1,5 +1,7 @@
 document.getElementById("button").addEventListener("mousedown", myFunction);
 document.getElementById("button").addEventListener("mouseup", change);
+document.getElementById("button").addEventListener("touchstart", myFunction);
+document.getElementById("button").addEventListener("touchend", change);
 
 var clicks = 0;
 
