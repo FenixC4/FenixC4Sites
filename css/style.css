@@ -9,7 +9,7 @@ button {
 	background-color: #e8e8e8;
 	border: none;
 	padding: 20px;
-	transition: 0.5s
+	transition: 0.5s;
 }
 button:hover {
 	background-color: #a0a0a0;
@@ -27,4 +27,14 @@ button:hover {
 #speszjal {
 	font-family: 'Press Start 2P', cursive;
 	font-size: 50px;
+}
+.haksy {
+	font-family: 'Press Start 2P', cursive;
+	font-size: 50px;
+	border-radius: 50px;
+	background-color: #e8e8e8;
+	border: none;
+	padding: 20px;
+	transition: 0.5s;
+	text-align: center;
 }
