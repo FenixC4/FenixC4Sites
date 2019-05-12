@@ -1,0 +1,137 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link href="css/style3.css" type="text/css" rel="stylesheet" />
+		<title>Factorio Calculators</title>
+	</head>
+	
+	<body>
+
+		<div id="calc_box">
+			<p>Type variables into boxes below.</p>
+			<form>
+				<p>Items produced per cycle:</p>
+				<input type="number" id="items_produced"></br>
+				<p>Time taken to produce them:</p>
+				<input type="number" id="time_taken"></br>
+				<p>Crafting speed of assembler:</p>
+				<select id="assemblerSpeeds">
+					<option value="0.5">Tier I Assembler</option>
+					<option value="0.75">Tier II Assembler</option>
+					<option value="1.25">Tier III Assembler</option>
+				</select>
+				<button id="button05" onclick="myFunction05()">Use</button>
+				<input type="number" id="craft_speed" class="JNUP"></br>
+				<p>Productivity of assembler:</p>
+				<input type="number" id="productivity" value="1"></br>
+				<p>Goal of Items Per Second:</p>
+				<input type="number" id="goal" class="last_one"></br>
+			</form>
+			<button id="button" onclick="myFunction()">Calculate</button>
+			<button id="button2" onclick="littlescript1()">Import I.T.P from below</button>
+			</br><b class="heading">Items Per Second:</b>
+			</br><b id="outputITP" class="output">Number</b>
+			</br><b class="heading">Ratio (Rounded):</b>
+			</br><b id="outputRatio" class="output">Number</b>
+			</br><b class="heading">Ratio:</b>
+			</br><b id="test1" class="output">Number</b>
+			</br>
+		</div>
+		
+		</p>
+		
+		<div id="calc_box">
+			<p>Type variables into boxes below.</p>
+			<form>
+				<p>Number of items needed for one cycle:</p>
+				<input type="number" id="items_needed"></br>
+				<p>Total number of assemblers:</p>
+				<input type="number" id="assembler_number"></br>
+				<p>Time of assembler cycle:</p>
+				<input type="number" id="assembler_time"></br>
+				<p>Assembler Speed:</p>
+				<select id="assemblerSpeeds2">
+					<option value="0.5">Tier I Assembler</option>
+					<option value="0.75">Tier II Assembler</option>
+					<option value="1.25">Tier III Assembler</option>
+				</select>
+				<button id="button052" onclick="myFunction052()">Use</button>
+				<input type="number" id="assembler_speed" class="JNUP2"></br>
+			</form>
+			<button id="button2" onclick="myFunction2()">Calculate</button>
+			</br><b class="heading">Total Time</b>
+			</br><b id="outputITP2T" class="output">Number</b>
+			</br><b class="heading">Items Per Second</b>
+			</br><b id="outputITP2" class="output">Number</b>
+			</br><b class="heading">Items Per Second (Rounded)</b>
+			</br><b id="outputITP2R" class="output">Number</b>
+		</div>
+		
+		</p>
+		
+		<div id="calc_box">
+			<p>Type variables into boxes below.</p>
+			<form>
+				<p>Number of reactors (including neighbour bonus):</p>
+				<input type="number" id="reactor_number" class="last_one"></br>
+			</form>
+			<button id="button3" onclick="myFunction3()">Calculate</button>
+			</br><b id="heading">Heat Exchangers:</b>
+			</br><b id="outputHE3" class="output">Number</b>
+			</br><b id="heading">Steam Turbines:</b>
+			</br><b id="outputST3" class="output">Number</b>
+			</br><b id="heading">Power Generated(MW):</b>
+			</br><b id="outputSTE3" class="output">Number</b>
+			<form>
+				<p>Heat Exchangers in a row:</p>
+				<input type="number" id="heat_exchagers" class="last_one">
+			</form>
+			<button id="button3.5" onclick="myFunction3()">Calculate</button>
+			</br><b id="heading">Steam Turbines</b>
+			</br><b id="outputST3.5" class="output">Number</b>
+		</div>
+		
+		</p>
+		
+		<div id="useful_commands">
+			<p>Copy commands:</p>
+			</br><b class="cmeaning">#gets player position</b>
+			</br><b class="cname">/c game.player.print(game.player.position.x .. ", " .. game.player.position.y)</b>
+			</br><b class="cmeaning">#gets position of entity under mouse</b>
+			</br><b class="cname">/c game.player.print(game.player.selected.position)</b>
+			</br><b class="cmeaning">#gets name of entity under mouse</b>
+			</br><b class="cname">/c game.player.print(game.player.selected.name)</b>
+			</br><b class="cmeaning">#creates water tiles</b>
+			</br><b class="cname">/c local waterTiles = {} for y=1,4 do  for x=-2,2 do   table.insert(waterTiles, {name="water", position={game.players[1].position.x+x, game.players[1].position.y+y}})  end  game.players[1].surface.set_tiles(waterTiles) end</b>
+			</br><b class="cmeaning">#teleports player to position of entity under mouse</b>
+			</br><b class="cname">/c game.player.teleport(game.player.selected.position)</b>
+			</br><b class="cmeaning">#teleports player to position X and Y</b>
+			</br><b class="cname">/c game.player.teleport(X,Y)</b>
+			</br><b class="cmeaning">#cheat mode</b>
+			</br><b class="cname">/c game.player.cheat_mode=true</b>
+			</br><b class="cmeaning">#always day</b>
+			</br><b class="cname">/c game.player.surface.always_day</b>
+			</br><b class="cmeaning">#reasearch all tech</b>
+			</br><b class="cname">/c game.player.force.research_all_technologies</b>
+		</div>
+		
+		</p>
+		
+		<div id="ratio_stuff">
+			<p>Nuclear Ratio</p>
+			</br><b class="cname">1 NuclearReactor 40Mw - 4 HeatExchangers(10Mw each)</b></br>
+			</br><b class="cname">1 HeatExchanger 103.0927835 steam/second - 1.71821305833 SteamTurbines</b></br>
+			</br><b class="cname">1 HeatExchanger around 0,09 OffshorePumps</b></br>
+		</div>
+		
+		</p>
+		
+		<div id="popups">
+			<p>Popups Buttons</p>
+			<button onclick="window.open('index.html','_blank','height=1000,width=290')" id="popupButton">Open Popup</button>
+		</div>
+		
+	<script src="js/script1.js"></script>
+	</body>
+</html>

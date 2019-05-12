@@ -1,0 +1,68 @@
+input {
+	text-align: center;
+	background-color: #ccd0d4;
+	border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+	padding: 5px;
+}
+#goal {
+	margin-bottom: 10px;
+}
+#assembler_time {
+	margin-bottom: 10px;
+}
+#useful_commands {
+	margin: 0px;
+	margin: 0px auto;
+	text-align: center;
+	width: 275px;
+	border-width: 1px;
+	border-color: #ccc;
+	border-style: solid;
+	border-radius: 5px;
+	font-size: 11px;
+}
+body {
+	background-color: darkgray;
+	size: 100%;
+}
+div {
+	background-color: #969ea4;
+}
+button {
+	background-color: #9aa6af;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+button:hover {
+	background-color: #909ca5;
+}
+#calc_box {
+	margin: 0px;
+	margin: 0px auto;
+	text-align: center;
+	width: 275px;
+	border-width: 1px;
+	border-color: #ccc;
+	border-style: solid;
+	border-radius: 5px;
+}
+.output {
+	font-family: "Sans-serif", "arial";
+	color: blue;
+	padding: 2px;
+}
+.heading {
+	line-height: 15px;
+	font-height: 15px;
+}
+.cname {
+	font-family: "Sans-serif", "arial";
+	padding: 1px;
+}
+.cmeaning {
+	font-family: "Sans-serif", "arial";
+	color: blue;
+	padding: 1px;
+}

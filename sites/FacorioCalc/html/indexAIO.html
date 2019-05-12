@@ -1,0 +1,134 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta harset="utf-8">
+		<title>Factorio Calculators</title>
+		<style>
+input {
+	text-align: center;
+	background-color: #ccd0d4;
+	border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+	padding: 5px;
+}
+#goal {
+	margin-bottom: 10px;
+}
+#assembler_time {
+	margin-bottom: 10px;
+}
+body {
+	background-color: darkgray;
+	size: 100%;
+}
+div {
+	background-color: #969ea4;
+}
+button {
+	background-color: #9aa6af;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+button:hover {
+	background-color: #909ca5;
+}
+#calc_box {
+	margin: 0px;
+	margin: 0px auto;
+	text-align: center;
+	width: 275px;
+	border-width: 1px;
+	border-color: #ccc;
+	border-style: solid;
+	border-radius: 5px;
+}
+.output {
+	font-family: "Sans-serif", "arial";
+	color: blue;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	box-sizing: border-box;
+	padding: 2px;
+}
+.heading {
+	line-height: 15px;
+	font-height: 15px;
+}
+		</style>
+	</head>
+	
+	<body>
+	
+		<div id="one">
+			<p>Type variables into boxes below.</p>
+			<form>
+				<p>Items produced per cycle:</p>
+				<input type="number" id="items_produced"></br>
+				<p>Time taken to produce them:</p>
+				<input type="number" id="time_taken"></br>
+				<p>Crafting speed of assembler:</p>
+				<input type="number" id="craft_speed" value="0.75"></br>
+				<p>Productivity of assembler:</p>
+				<input type="number" id="productivity" value="1"></br>
+				<p>Goal of Items Per Second:</p>
+				<input type="number" id="goal"></br>
+			</form>
+			<button id="button" onclick="myFunction()">Calculate</button>
+			<button id="button2" onclick="littlescript1()">Import I.T.P from below</button>
+			</br><b>Items Per Second:</b>
+			</br><b id="outputITP" class="output">Number</b>
+			</br><b>Ratio (Rounded):</b>
+			</br><b id="outputRatio" class="output">Number</b>
+			</br><b>Ratio:</b>
+			</br><b id="test1" class="output">Number</b>
+		</div>
+		
+		<div id="two">
+			<p>Type variables into boxes below.</p>
+			<form>
+				<p>Number of items needed for one cycle:</p>
+				<input type="number" id="items_needed"></br>
+				<p>Total number of assemblers:</p>
+				<input type="number" id="assembler_number"></br>
+				<p>Time of assembler cycle:</p>
+				<input type="number" id="assembler_time"></br>
+			</form>
+			<button id="button2" onclick="myFunction2()">Calculate</button>
+			</br><b>Items Per Second</b>
+			</br><b id="outputITP2" class="output">Number</b>
+			</br><b>Items Per Second (Rounded)</b>
+			</br><b id="outputITP2R" class="output">Number</b>
+		</div>
+	<script>
+	function myFunction() {
+	var items_produced = document.getElementById("items_produced").value;
+	var time_taken = document.getElementById("time_taken").value;
+	var craft_speed = document.getElementById("craft_speed").value;
+	var productivity = document.getElementById("productivity").value;
+	var goal = document.getElementById("goal").value;
+	var outputITP = (items_produced / time_taken * craft_speed * productivity);
+	var outputRatio = goal / outputITP;
+	document.getElementById("outputITP").innerHTML=outputITP
+	document.getElementById("outputRatio").innerHTML=Math.ceil(outputRatio);
+	document.getElementById("test1").innerHTML=outputRatio;
+}
+
+var global_output1 = null;
+
+function myFunction2() {
+	var items_needed = document.getElementById("items_needed").value;
+	var assembler_number = document.getElementById("assembler_number").value;
+	var assembler_time = document.getElementById("assembler_time").value;
+	var variable1 = items_needed * assembler_number;
+	var output = variable1 / assembler_time;
+	global_output1 = output;
+	document.getElementById("outputITP2").innerHTML=output;
+	document.getElementById("outputITP2R").innerHTML=Math.ceil(output);
+}
+function littlescript1() {
+	document.getElementById("goal").value = global_output1;
+}
+	</script>
+	</body>
+</html>

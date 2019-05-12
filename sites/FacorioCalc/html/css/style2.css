@@ -1,0 +1,81 @@
+.last_one {
+	margin-bottom: 10px;
+}
+#useful_commands {
+	margin: 0px;
+	margin: 0px auto;
+	text-align: center;
+	width: 275px;
+	font-size: 11px;
+}
+#useful_commands>p {
+	font-size: initial;
+}
+#useful_commands>b {
+	margin: 3px;
+}
+#popups {
+	margin: 0px;
+	margin: 0px auto;
+	text-align: center;
+	width: 275px;
+}
+#ratio_stuff {
+	margin: 0px;
+	margin: 0px auto;
+	text-align: center;
+	width: 275px;
+	font-size: 13px;
+}
+#ratio_stuff>p {
+	font-size: initial;
+}
+#calc_box {
+	margin: 0px;
+	margin: 0px auto;
+	text-align: center;
+	width: 275px;
+}
+input {
+	text-align: center;
+	background-color: #166b9e;
+	padding: 5px;
+	border: 1px solid #13567d;
+}
+body {
+	background-color: #166b9e;
+	size: 100%;
+	font-family: "Sans-serif", "arial";
+}
+div {
+	background-color: #13567d;
+}
+button {
+	background-color: #166b9e;
+	border: 1px solid #13567d;
+}
+button:hover {
+	background-color: #207fb2;
+}
+p {
+	padding: 2px;
+}
+.output {
+	text-align: center;
+	font-family: "Sans-serif", "arial";
+	color: #d1ff00;
+	padding: 2px;
+}
+.heading {
+	line-height: 15px;
+	font-height: 15px;
+}
+.cname {
+	font-family: "Sans-serif", "arial";
+	padding: 1px;
+}
+.cmeaning {
+	font-family: "Sans-serif", "arial";
+	color: #d1ff00;
+	padding: 1px;
+}

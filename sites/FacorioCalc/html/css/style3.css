@@ -1,0 +1,101 @@
+.JNUP {
+	margin-top: 10px;
+}
+.last_one {
+	margin-bottom: 10px;
+}
+.JNUP2 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#useful_commands {
+	margin: 0px;
+	margin: 0px auto;
+	text-align: center;
+	width: 275px;
+	font-size: 11px;
+}
+#useful_commands>p {
+	font-size: initial;
+}
+#useful_commands>b {
+	margin: 3px;
+}
+#popups {
+	margin: 0px;
+	margin: 0px auto;
+	text-align: center;
+	width: 275px;
+}
+#ratio_stuff {
+	margin: 0px;
+	margin: 0px auto;
+	text-align: center;
+	width: 275px;
+	font-size: 13px;
+}
+#ratio_stuff>p {
+	font-size: initial;
+}
+#calc_box {
+	margin: 0px;
+	margin: 0px auto;
+	text-align: center;
+	width: 275px;
+}
+input {
+	text-align: center;
+	background-color: #6e6d71;
+	padding: 5px;
+	border: 2px inset #7b7a7e;
+}
+body {
+	background-color: #7b7a7e;
+	size: 100%;
+	font-family: "Sans-serif", "arial";
+}
+div {
+	background-color: #646367;
+	border: 2px outset #9a989e;
+	padding-bottom: 5px;
+}
+button {
+	background-color: #6e6d71;
+	border: 2px outset #7b7a7e;
+}
+button:hover {
+	background-color: #faa838;
+	border: 2px outset #faa838;
+}
+p {
+	padding: 2px;
+	font-weight: bold;
+	color: white;
+}
+b {
+	color: #faa838;
+}
+select {
+	border: 2px outset #7b7a7e;
+	text-align: center;
+	background-color: #6e6d71;
+}
+.output {
+	text-align: center;
+	font-family: "Sans-serif", "arial";
+	color: #d1ff00;
+	padding: 2px;
+}
+.heading {
+	line-height: 15px;
+	font-height: 15px;
+}
+.cname {
+	font-family: "Sans-serif", "arial";
+	padding: 1px;
+}
+.cmeaning {
+	font-family: "Sans-serif", "arial";
+	color: #d1ff00;
+	padding: 1px;
+}
