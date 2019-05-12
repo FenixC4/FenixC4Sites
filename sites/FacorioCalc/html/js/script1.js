@@ -52,3 +52,10 @@ function myFunction052() {
 	const selectedSpeed = document.getElementById("assemblerSpeeds2").value;
 	document.getElementById("assembler_speed").value = selectedSpeed;
 }
+
+function myFunctionNOTE() {
+	const input = document.getElementById("noteIn").value;
+	let newElement = document.createElement("p");
+	newElement.innerHTML = input;
+	document.getElementById("notes").appendChild(newElement);
+}
