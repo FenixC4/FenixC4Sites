@@ -7,5 +7,8 @@ function myFunction() {
         if(input.value=="FACTORIO") {
             document.location.href="sites/FacorioCalc/html/index.html";
         };
+        if(input.value=="FISH") {
+            document.location.href="sites/sandboxpage/html/index.html";
+        };
     };
 };
