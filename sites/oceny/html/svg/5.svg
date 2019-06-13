@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 32.340661 32.340665"
+   height="122.23243"
+   width="122.23242">
+  <defs
+     id="defs2" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(-20.316695,-94.870217)"
+     id="layer1">
+    <path
+       id="rect4500"
+       d="M 20.316695,94.870217 V 127.21088 H 52.657356 V 94.870217 Z m 12.055078,9.307963 h 8.470284 v 2.74712 h -6.001184 l -0.248566,2.35437 h 2.507343 c 0.567878,0 1.110456,0.0989 1.62729,0.29663 0.523227,0.19776 0.982602,0.48496 1.37821,0.86144 0.395594,0.37008 0.711136,0.82311 0.947229,1.35909 0.236024,0.52946 0.354439,1.12618 0.3545,1.78956 0,0 0,5.3e-4 0,5.3e-4 -6.1e-5,0.66975 -0.118481,1.27282 -0.3545,1.80867 -0.236093,0.53598 -0.55163,0.989 -0.947229,1.35909 -0.395608,0.37008 -0.854991,0.65384 -1.37821,0.85163 -0.516839,0.19777 -1.059412,0.29662 -1.62729,0.29662 h -5.531964 v -2.7466 h 5.531964 c 0.185047,0 0.369969,-0.029 0.555003,-0.0863 0.191426,-0.0573 0.360704,-0.14984 0.507463,-0.2775 0.15312,-0.1276 0.274463,-0.29001 0.363802,-0.48783 0.09571,-0.19776 0.143661,-0.4375 0.143661,-0.7183 0,-0.25522 -0.04795,-0.4783 -0.143661,-0.66973 -0.08933,-0.19776 -0.210674,-0.36068 -0.363802,-0.48834 -0.146759,-0.13396 -0.316037,-0.23283 -0.507463,-0.29662 -0.185039,-0.0701 -0.369964,-0.1049 -0.555003,-0.1049 h -5.531964 z"
+       style="opacity:1;vector-effect:none;fill:#2a7fff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+  </g>
+</svg>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 32.340661 32.340661"
+   height="122.23241"
+   width="122.23242">
+  <defs
+     id="defs2" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(-44.779588,-131.56456)"
+     id="layer1">
+    <path
+       id="rect4520"
+       d="m 44.779588,131.56456 v 32.34066 h 32.340661 v -32.34066 z m 7.111193,9.30796 h 8.4708 v 2.74711 h -6.001185 l -0.249078,2.35438 h 2.507856 c 0.567891,0 1.109953,0.0988 1.626774,0.29662 0.52323,0.19776 0.983136,0.48496 1.378728,0.86145 0.395618,0.37007 0.711147,0.82311 0.94723,1.35909 0.23604,0.52961 0.353983,1.12599 0.353983,1.78956 0,0.66999 -0.117885,1.2732 -0.353983,1.80919 -0.236083,0.53598 -0.551612,0.989 -0.94723,1.35909 -0.395592,0.37008 -0.855498,0.65383 -1.378728,0.85163 -0.516821,0.19771 -1.058883,0.29713 -1.626774,0.29714 h -5.531962 v -2.74713 h 5.531962 c 0.185049,0 0.369964,-0.0289 0.555005,-0.0863 0.191429,-0.0574 0.360702,-0.14992 0.507463,-0.2775 0.153131,-0.1276 0.274503,-0.29053 0.363802,-0.48834 0.09577,-0.19777 0.143143,-0.43698 0.143143,-0.71779 0,-0.2552 -0.04744,-0.4783 -0.143143,-0.66972 -0.08933,-0.19778 -0.210671,-0.36068 -0.363802,-0.48834 -0.146761,-0.13397 -0.316034,-0.23273 -0.507463,-0.29663 -0.185049,-0.0702 -0.369974,-0.10541 -0.555005,-0.10541 h -5.531962 z m 10.88254,5.49372 h 8.03982 v 2.60345 h -8.03982 z"
+       style="opacity:1;vector-effect:none;fill:#2a7fff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+  </g>
+</svg>

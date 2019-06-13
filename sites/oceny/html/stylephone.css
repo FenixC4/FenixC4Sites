@@ -35,3 +35,12 @@ input {
 	width: 125px;
 	height: 125px;
 }
+select {
+	border: 0px;
+	border-radius: 50px;
+	padding: 10px;
+	background-color: #e8790b;
+	width: 60%;
+	font-size: 40px;
+	color: lightslategrey;
+}
