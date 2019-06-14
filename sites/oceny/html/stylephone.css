@@ -31,7 +31,7 @@ input {
 	-webkit-transition: -webkit-transform 0.3s ease 0s, opacity 0.2s ease 0s;
 	transition: 0.05s;
 }
-.icon:active {
+.icon:hover, .icon:focus, .icon:active {
 	width: 125px;
 	height: 125px;
 }
@@ -43,4 +43,6 @@ select {
 	width: 60%;
 	font-size: 40px;
 	color: lightslategrey;
+	-webkit-appearance: none;
+	appearance: none;
 }
