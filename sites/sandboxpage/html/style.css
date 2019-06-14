@@ -61,7 +61,7 @@ div#added>p {
 	color: white;
 	margin: 0px 0px 0px 0px;
 }
-.sub_added2:hover, .sub_added2:active {
+.sub_added2:hover, .sub_added2:focus, .sub_added2:active {
 	color: black;
 }
 p.FFont {
