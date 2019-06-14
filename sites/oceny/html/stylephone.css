@@ -20,7 +20,7 @@ input {
 	color: lightslategrey;
 }
 .indicator {
-	color: blue;
+	color: lime;
 	margin: 2px;
 	font-size: 30px;
 	margin: 25px;
@@ -44,5 +44,4 @@ select {
 	font-size: 40px;
 	color: lightslategrey;
 	-webkit-appearance: none;
-	appearance: none;
 }
