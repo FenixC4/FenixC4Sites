@@ -16,10 +16,13 @@ function myFunction2() {
     const randomizer = Math.floor((Math.random() * pole.length));
     console.log(randomizer);
     console.log(pole.length);
-    // for(var i=0;i<input.length;i++) {
+    var elements = document.getElementsByClassName("added");
+    for(var i=0; i<elements.length;i++) {
+        elements[i].style = "background-color:";
+    };
     for(var i=0; i<pole.length;i++) {
         if(i==randomizer) {
-            document.getElementById(pole[i]).style = "background-color:green;"
-        }
-    }
+            document.getElementById(pole[i]).style = "background-color: green;";
+        };
+    };
 }
