@@ -10,5 +10,8 @@ function myFunction() {
         if(input.value=="FISH") {
             document.location.href="sites/sandboxpage/html/index.html";
         };
+        if(input.value=="GAME") {
+            document.location.href="sites/gamerandomizer/html/index.html";
+        };
     };
 };
