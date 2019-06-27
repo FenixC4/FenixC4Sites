@@ -9,6 +9,7 @@ function myFunction(trigger) {
         newElement.innerHTML = input;
         document.getElementById("pole").appendChild(newElement);
         pole.push(input);
+        document.getElementById("input").value = ' ';
     };
     if(trigger==1) {
         const input = document.getElementById("input").value;
@@ -18,6 +19,7 @@ function myFunction(trigger) {
         newElement.innerHTML = input;
         document.getElementById("pole").appendChild(newElement);
         pole.push(input);
+        document.getElementById("input").value = ' ';
     };
 };
 
