@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Antenna Length & Wave Length Calculator</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/style.css'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link href="https://fonts.googleapis.com/css?family=Krub|Mali&amp;subset=latin-ext" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div id="chooser">
+        <p>Choose your language:</p>
+        <p>Wybierz język:</p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Flag_of_Poland.svg/1920px-Flag_of_Poland.svg.png" width="1378" height="861" id="CPL">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Flag_of_the_United_Kingdom.svg/1920px-Flag_of_the_United_Kingdom.svg.png" width="1643" height="822" id="CEN">
+    </div>
+
+    <div id="PL" style="display: none;" class="standard">
+        <p>Jeżeli chcesz obliczyć długość anteny znając długość fali, wpisz w pole poniżej długość fali (w MHz)</p>
+        <input type="number" id="W-IN"></input></p>
+        <button onclick="myFunction()">Oblicz</button>
+        <p id="W-OUT"></p>
+        <p id="W-OUT-O"></p>
+        <p>Jeżeli chcesz obliczyć długość fali znając długość anteny, wpisz w pole poniżej długość anteny (W m)</p>
+        <input type="number" id="A-IN"></input></p>
+        <button onclick="myFunction2()">Oblicz</button>
+        <p id="A-OUT"></p>
+        <p id="A-OUT-O"></p>
+    </div>
+
+    <div id="EN" style="display: none;" class="standard">
+        <p>To calculate antenna length with wave length, put wave length in the box below (in MHz)</p>
+        <input type="number" id="W-IN"></input></p>
+        <button onclick="myFunction()">Oblicz</button>
+        <p id="W-OUT"></p>
+        <p id="W-OUT-O"></p>
+        <p>To calculate wave length with antenna length, put antenna length in the box below (in m)</p>
+        <input type="number" id="A-IN"></input></p>
+        <button onclick="myFunction2()">Oblicz</button>
+        <p id="A-OUT"></p>
+        <p id="A-OUT-O"></p>
+    </div>
+    
+<script src='js/script.js'></script>
+</body>
+
+</html>
