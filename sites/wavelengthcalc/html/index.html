@@ -14,7 +14,7 @@
 
 <body>
 
-    <div id="chooser">
+    <div id="chooser" style="display: block;">
         <p>Choose your language:</p>
         <p>Wybierz język:</p>
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Flag_of_Poland.svg/1920px-Flag_of_Poland.svg.png" width="1378" height="861" id="CPL">
@@ -25,7 +25,13 @@
         <p style="color: red;">Czerwony = Pełna</p>
         <p style="color: greenyellow;">Zielony = 1/2</p>
         <p style="color: lightblue;">Jasno-niebieski = 1/4</p>
-        <p>Jeżeli chcesz obliczyć długość anteny znając długość fali, wpisz w pole poniżej długość fali (w MHz)</p>
+        <p style="color: orange;">Pomarańczowy = niestandardowy</p>
+        <div class="custom-input" style="margin: 0px auto; width: 10%;">
+            <input style="width: 80%" type="number" id="custom-input-1">
+            <p style="border-bottom: orange 2px solid"> </p>
+            <input style="width: 80%" type="number" id="custom-input-2">
+        </div>
+        <p style="clear: both;">Jeżeli chcesz obliczyć długość anteny znając długość fali, wpisz w pole poniżej długość fali (w MHz)</p>
         <input type="number" id="W-IN"></input></p>
         <button onclick="myFunction()">Oblicz</button>
         <p id="W-OUT" style="color: red"></p>
@@ -34,6 +40,8 @@
         <p id="W-OUT-0.5-O" style="color: greenyellow"></p>
         <p id="W-OUT-0.25" style="color: lightblue"></p>
         <p id="W-OUT-0.25-O" style="color: lightblue"></p>
+        <p id="W-OUT-C" style="color: orange;"></p>
+        <p id="W-OUT-C-O" style="color: orange;"></p>
         <p>Jeżeli chcesz obliczyć długość fali znając długość anteny, wpisz w pole poniżej długość anteny (W m)</p>
         <input type="number" id="A-IN"></input></p>
         <button onclick="myFunction2()">Oblicz</button>
@@ -43,34 +51,44 @@
         <p id="A-OUT-0.5-O" style="color: greenyellow"></p>
         <p id="A-OUT-0.25" style="color: lightblue"></p>
         <p id="A-OUT-0.25-O" style="color: lightblue"></p>
+        <p id="A-OUT-C" style="color: orange"></p>
+        <p id="A-OUT-C-O" style="color: orange"></p>
     </div>
 
     <div id="EN" style="display: none;" class="standard">
-        <p style="color: red;">Red = Full</p>
-        <p style="color: greenyellow;">Green = Half</p>
-        <p style="color: lightblue;">Lightblue = Quarter</p>
-        <p>To calculate antenna length with wave length, put wave length in the box below (in MHz)</p>
-        <input type="number" id="W-IN"></input></p>
-        <button onclick="myFunction()">Oblicz</button>
-        <p id="W-OUT" style="color: red"></p>
-        <p id="W-OUT-O" style="color: red"></p>
-        <p id="W-OUT-0.5" style="color: greenyellow"></p>
-        <p id="W-OUT-0.5-O" style="color: greenyellow"></p>
-        <p id="W-OUT-0.25" style="color: lightblue"></p>
-        <p id="W-OUT-0.25-O" style="color: lightblue"></p>
-        <p>To calculate wave length with antenna length, put antenna length in the box below (in m)</p>
-        <input type="number" id="A-IN"></input></p>
-        <button onclick="myFunction2()">Oblicz</button>
-        <p id="A-OUT" style="color: red"></p>
-        <p id="A-OUT-O" style="color: red"></p>
-        <p id="A-OUT-0.5" style="color: greenyellow"></p>
-        <p id="A-OUT-0.5-O" style="color: greenyellow"></p>
-        <p id="A-OUT-0.25" style="color: lightblue"></p>
-        <p id="A-OUT-0.25-O" style="color: lightblue"></p>
+            <p style="color: red;">Czerwony = Pełna</p>
+            <p style="color: greenyellow;">Zielony = 1/2</p>
+            <p style="color: lightblue;">Jasno-niebieski = 1/4</p>
+            <p style="color: orange;">Pomarańczowy = niestandardowy</p>
+            <div class="custom-input" style="margin: 0px auto; width: 10%;">
+                <input style="width: 80%" type="number" id="custom-input-1">
+                <p style="border-bottom: orange 2px solid"> </p>
+                <input style="width: 80%" type="number" id="custom-input-2">
+            </div>
+            <p>To calculate antenna length with wave length, put wave length in the box below (in MHz)</p>
+            <input type="number" id="W-IN"></input></p>
+            <button onclick="myFunction()">Oblicz</button>
+            <p id="W-OUT" style="color: red"></p>
+            <p id="W-OUT-O" style="color: red"></p>
+            <p id="W-OUT-0.5" style="color: greenyellow"></p>
+            <p id="W-OUT-0.5-O" style="color: greenyellow"></p>
+            <p id="W-OUT-0.25" style="color: lightblue"></p>
+            <p id="W-OUT-0.25-O" style="color: lightblue"></p>
+            <p id="W-OUT-C" style="color: orange;"></p>
+            <p id="W-OUT-C-O" style="color: orange;"></p>
+            <p>To calculate wave length with antenna length, put antenna length in the box below (in m)</p>
+            <input type="number" id="A-IN"></input></p>
+            <button onclick="myFunction2()">Oblicz</button>
+            <p id="A-OUT" style="color: red"></p>
+            <p id="A-OUT-O" style="color: red"></p>
+            <p id="A-OUT-0.5" style="color: greenyellow"></p>
+            <p id="A-OUT-0.5-O" style="color: greenyellow"></p>
+            <p id="A-OUT-0.25" style="color: lightblue"></p>
+            <p id="A-OUT-0.25-O" style="color: lightblue"></p>
+            <p id="A-OUT-C" style="color: orange"></p>
+            <p id="A-OUT-C-O" style="color: orange"></p>
     </div>
     
 <script src='js/script.js'></script>
 </body>
-
-
 </html>

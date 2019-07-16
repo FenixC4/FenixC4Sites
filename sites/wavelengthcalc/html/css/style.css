@@ -28,7 +28,8 @@ input {
 	background-color: #e8790b;
 	width: 60%;
 	font-size: 40px;
-	color: lightslategrey;
+    color: lightslategrey;
+    text-align: center;
 }
 button {
     text-align: center;
