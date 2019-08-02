@@ -38,3 +38,13 @@ button:hover {
 	transition: 0.5s;
 	text-align: center;
 }
+.popup {
+	font-family: 'Comfortaa', cursive;
+	font-size: 50px;
+	border-radius: 50px;
+	background-color: #e8e8e8;
+	border: none;
+	padding: 20px;
+	transition: 0.5s;
+	text-align: center;
+}

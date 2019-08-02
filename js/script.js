@@ -12,3 +12,8 @@ function myFunction() {
         };
     };
 };
+
+function myFunction2() {
+    const link = document.getElementById("popup").value;
+    window.open(link,'_blank','height=500,width=500');
+};
