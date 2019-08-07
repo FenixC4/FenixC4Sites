@@ -3,7 +3,7 @@ body {
     margin: 0px;
     padding: 0px;
     position: relative;
-    cursor: hide;
+    cursor: none;
 }
 
 img {
