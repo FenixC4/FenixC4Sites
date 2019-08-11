@@ -8,6 +8,8 @@
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
 </head>
 <body id="body">
+    <input type="range" min="100" max="400" id="to_remove" oninput="myFunction()" value="25">
+    <button onclick="document.getElementById('to_remove').style.display='none'; document.getElementById('to_remove_2').style.display='none'" id="to_remove_2">Done</button>
     <img src="dot.svg" id="dot1" class="dot">
     <img src="dot.svg" id="dot2" class="dot">
     <img src="dot.svg" id="dot3" class="dot">

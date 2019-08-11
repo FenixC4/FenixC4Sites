@@ -3,11 +3,27 @@ body {
     margin: 0px;
     padding: 0px;
     position: relative;
-    cursor: none;
+    /* cursor: none; */
 }
 
 img {
     position: absolute;
     margin: 0px;
     padding: 0px;
+}
+
+#to_remove {
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    width: 250px;
+    height: 50px;
+}
+
+#to_remove_2 {
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    width: 250px;
+    height: 50px;
 }
