@@ -12,18 +12,22 @@ img {
     padding: 0px;
 }
 
-#to_remove {
-    position: absolute;
-    margin: 0px;
+#range {
+    margin: 0px auto;
     padding: 0px;
     width: 250px;
     height: 50px;
 }
 
-#to_remove_2 {
-    position: absolute;
-    margin: 0px;
-    padding: 0px;
+#remove_button {
+    margin: 0px auto;
+    margin-top: 10px;
     width: 250px;
     height: 50px;
+}
+
+#test_div {
+    position: absolute;
+    text-align: center;
+
 }
