@@ -10,6 +10,9 @@ function myFunction() {
         if(input.value=="FISH") {
             document.location.href="sites/sandboxpage/html/index.html";
         };
+        if(input.value=="PLAN") {
+            document.location.href="pdf/planlekcji.pdf";
+        };
     };
 };
 
