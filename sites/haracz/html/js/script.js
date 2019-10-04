@@ -3,7 +3,7 @@ const passwordinput = document.getElementById("passwordinput");
 
 function passwordcheck() {
     if(event.key=="Enter") {
-        if(passwordinput.value=="syfą") {
+        if(passwordinput.value=="sasą") {
             overlay.style.display="none";
         }
         else {
