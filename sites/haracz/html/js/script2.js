@@ -1,7 +1,20 @@
-const overlay = document.getElementById("overlay");
-const passwordinput = document.getElementById("passwordinput");
+function createOverlay() {
+    let newElement = document.createElement("div");
+    newElement.id = "overlay";
+    document.body.appendChild(newElement);
+    let newElement2 = document.createElement("p");
+    newElement2.innerHTML = "Wprowadź hasło:";
+    newElement.appendChild(newElement2);
+    let newElement3 = document.createElement("input");
+    newElement3.type = "password";
+    newElement3.id = "passwordinput";
+    newElement3.onkeydown = function(){if(event.key=='Enter') {passwordcheck()}};
+    newElement.appendChild(newElement3);
+}
 
 function passwordcheck() {
+    const passwordinput = document.getElementById("passwordinput");
+    const overlay = document.getElementById("overlay");
     if(event.key=="Enter") {
         if(passwordinput.value=="sasą") {
             overlay.style.display="none";
@@ -11,6 +24,15 @@ function passwordcheck() {
         }
     }
 }
+
+function checkforoverlay() {
+    if(document.getElementById("overlay")==null) {
+        createOverlay();
+        console.log("created")
+    };
+};
+
+setInterval(checkforoverlay,1000)
 
 $.getJSON("js/dag2.json",
     function (json) {
