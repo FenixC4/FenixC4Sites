@@ -6,6 +6,7 @@ body {
     color: lightgrey;
     height: 100%;
     margin: 0px;
+    position: relative;
 }
 
 #name2 {
@@ -25,4 +26,28 @@ button {
     margin: 40px;
     background-color: #2a7fff;
     border-radius: 12px ;
+}
+
+#overlay {
+    position: absolute;
+    background-color: darkslateblue;
+    top: -40px;
+    left: 0px;
+    width: 100%;
+    height: 110%;
+}
+
+#overlay p {
+    margin-top: 0;
+}
+
+input {
+	border: 0px;
+	border-radius: 50px;
+	padding: 10px;
+	background-color: #e8790b;
+	width: 60%;
+	font-size: 40px;
+    color: lightslategrey;
+    text-align: center;
 }

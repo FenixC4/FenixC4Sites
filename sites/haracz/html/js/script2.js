@@ -1,3 +1,17 @@
+const overlay = document.getElementById("overlay");
+const passwordinput = document.getElementById("passwordinput");
+
+function passwordcheck() {
+    if(event.key=="Enter") {
+        if(passwordinput.value=="syfą") {
+            overlay.style.display="none";
+        }
+        else {
+            passwordinput.value=""
+        }
+    }
+}
+
 $.getJSON("js/dag2.json",
     function (json) {
         const lysta = json.lysta;
