@@ -1,174 +1,177 @@
 {
+    "data":{
+        "date": "18.10.2019"
+    },
     "lysta": [
         {
             "numer": 1,
-            "wisi": "nie",
-            "ile": 10
+            "wisi": "tak",
+            "ile": 25
         },
         {
             "numer": 2,
-            "wisi": "nie",
-            "ile": 10
+            "wisi": "tak",
+            "ile": 25
         },
         {
             "numer": 3,
             "wisi": "tak",
-            "ile": 10
+            "ile": 25
         },
         {
             "numer": 4,
             "wisi": "tak",
-            "ile": 10
+            "ile": 25
         },
         {
             "numer": 5,
-            "wisi": "nie",
-            "ile": 10
+            "wisi": "tak",
+            "ile": 25
         },
         {
             "numer": 6,
-            "wisi": "nie",
-            "ile": 10
+            "wisi": "tak",
+            "ile": 25
         },
         {
             "numer": 7,
-            "wisi": "nie",
-            "ile": 10
+            "wisi": "tak",
+            "ile": 25
         },
         {
             "numer": 8,
-            "wisi": "nie",
-            "ile": 10
+            "wisi": "tak",
+            "ile": 25
         },
         {
             "numer": 9,
-            "wisi": "nie",
-            "ile": 10
+            "wisi": "tak",
+            "ile": 25
         },
         {
             "numer": 10,
             "wisi": "tak",
-            "ile": 10
+            "ile": 25
         },
         {
             "numer": 11,
-            "wisi": "nie",
-            "ile": 10
+            "wisi": "tak",
+            "ile": 25
         },
         {
             "numer": 12,
-            "wisi": "nie",
-            "ile": 10
+            "wisi": "tak",
+            "ile": 25
         },
         {
             "numer": 13,
-            "wisi": "nie",
-            "ile": 10
+            "wisi": "tak",
+            "ile": 25
         },
         {
             "numer": 14,
             "wisi": "tak",
-            "ile": 10
+            "ile": 25
         },
         {
             "numer": 15,
-            "wisi": "nie",
-            "ile": 10
+            "wisi": "tak",
+            "ile": 25
         },
         {
             "numer": 16,
             "wisi": "tak",
-            "ile": 15
+            "ile": 25
         },
         {
             "numer": 17,
-            "wisi": "nie",
-            "ile": 10
+            "wisi": "tak",
+            "ile": 25
         },
         {
             "numer": 18,
             "wisi": "tak",
-            "ile": 10
+            "ile": 25
         },
         {
             "numer": 19,
-            "wisi": "nie",
-            "ile": 10
+            "wisi": "tak",
+            "ile": 25
         },
         {
             "numer": 20,
-            "wisi": "nie",
-            "ile": 10
+            "wisi": "tak",
+            "ile": 25
         },
         {
             "numer": 21,
-            "wisi": "nie",
-            "ile": 10
+            "wisi": "tak",
+            "ile": 25
         },
         {
             "numer": 22,
-            "wisi": "nie",
-            "ile": 10
+            "wisi": "tak",
+            "ile": 25
         },
         {
             "numer": 23,
-            "wisi": "nie",
-            "ile": 10
+            "wisi": "tak",
+            "ile": 25
         },
         {
             "numer": 24,
-            "wisi": "nie",
-            "ile": 10
+            "wisi": "tak",
+            "ile": 25
         },
         {
             "numer": 25,
-            "wisi": "nie",
-            "ile": 10
+            "wisi": "tak",
+            "ile": 25
         },
         {
             "numer": 26,
-            "wisi": "nie",
-            "ile": 10
+            "wisi": "tak",
+            "ile": 25
         },
         {
             "numer": 27,
-            "wisi": "nie",
-            "ile": 10
+            "wisi": "tak",
+            "ile": 25
         },
         {
             "numer": 28,
             "wisi": "tak",
-            "ile": 10
+            "ile": 25
         },
         {
             "numer": 29,
-            "wisi": "nie",
-            "ile": 10
+            "wisi": "tak",
+            "ile": 25
         },
         {
             "numer": 30,
-            "wisi": "nie",
-            "ile": 10
+            "wisi": "tak",
+            "ile": 25
         },
         {
             "numer": 31,
-            "wisi": "nie",
-            "ile": 10
+            "wisi": "tak",
+            "ile": 25
         },
         {
             "numer": 32,
             "wisi": "tak",
-            "ile": 10
+            "ile": 25
         },
         {
             "numer": 33,
-            "wisi": "nie",
-            "ile": 10
+            "wisi": "tak",
+            "ile": 25
         },
         {
             "numer": 34,
             "wisi": "tak",
-            "ile": 10
+            "ile": 35
         }
     ]
 }
