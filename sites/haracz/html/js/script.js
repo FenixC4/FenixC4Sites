@@ -37,9 +37,15 @@ setInterval(checkforoverlay,1000)
 $.getJSON( "js/dag.json", function( json ) {
     var lysta = json.lysta;
     var date = json.data.date.split("/");
-    const today = new Date();
-    var dni = Math.floor((today - new Date(date[1]+"/"+date[0]+"/"+date[2])) / (1000*60*60*24));
-    document.getElementById("kiedy").innerHTML=json.data.date+" || "+-dni
+
+    if(date=="brak") {
+        document.getElementById("kiedy").innerHTML="brak"
+    }
+    else {
+        const today = new Date();
+        var dni = Math.floor((today - new Date(date[1]+"/"+date[0]+"/"+date[2])) / (1000*60*60*24));
+        document.getElementById("kiedy").innerHTML=json.data.date+" || "+-dni
+    }
 
     for (var i=0; i<lysta.length; i++) {
         var numero = lysta[i].numer;
