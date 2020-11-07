@@ -17,6 +17,14 @@ function myFunction() {
 };
 
 function myFunction2() {
+    const y = document.getElementById("popupx").value;
+    const x = +document.getElementById("popupy").value;
     const link = document.getElementById("popup").value;
-    window.open(link,'_blank','height=500,width=500');
+    if(x==0|y==0) {
+        window.open(link,'_blank','height=500,width=500');
+    }
+    else {
+        const string = "height="+x+",width="+y;
+        window.open(link,'_blank',string);
+    }
 };
